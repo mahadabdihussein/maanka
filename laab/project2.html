@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        button {
+            font-size: 18px;
+            background: rgb(28, 28, 156);
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 6px;
+            width: 120px;
+        }
+
+        input {
+            width: 300px;
+            border-color: rgb(28, 28, 156);
+        }
+
+        form {
+            gap: 12px;
+        }
+
+        @media (max-width: 390px) {
+            nav{
+                width: 390px;
+                background-color: red;
+            }
+            nav h1 {
+                color: red;
+                font-size: 30px;
+            }
+
+            nav a {
+                color: red;
+                font-size: 25px;
+            }
+        }
+
+        @media (max-width: 390px) {
+            .herosection {
+                flex-direction: column;
+                margin: 0;
+            }
+
+            p {
+                width: 220px;
+            }
+
+            div img {
+                width: 270px;
+            }
+
+            .hero section h1 {
+                color: red;
+            }
+
+        }
+
+        @media (max-width: 1024px) {
+            .herosection {
+                margin: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body style=" margin: 0; padding: 0;">
+    <nav
+        style="display: flex;  align-items: center; justify-content: space-around; background: rgb(28, 28, 156);   color: white;">
+        <div>
+            <h1 style="font-size: 30px;"> logo</h1>
+        </div>
+        <ul style="display: flex; gap: 20px;">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <div class="herosection" style=" ">
+
+        <div>
+            <h1 style="font-size: 30px; text-transform: uppercase;">tayo
+                school</h1>
+            <p style="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, perspiciatis
+                perferendis. Dignissimos praesentium veritatis magni atque reiciendis! Laborum cumque perferendis maxime
+                consectetur illum itaque illo, rem, repudiandae ullam modi saepe officiis et?</p>
+            <button>see more</button>
+        </div>
+        <img style="border-radius: 12px;" src="full.webp" alt="">
+    </div>
+
+    <!-- servic  -->
+
+    <div style="margin: 120px;">
+        <!-- texex -->
+        <div>
+            <h1 style="font-size: 30px; text-transform: uppercase;">Our Services</h1>
+            <p style="width: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam et
+                aut magnam omnis
+                inventore? Accusamus vel consequatur, ipsam fuga ea voluptatibus tempore maxime eveniet cumque velit
+                provident est sequi?</p>
+        </div>
+        <!-- hool cards -->
+        <div style="display: flex; justify-content: space-around;">
+            <!-- cards by one -->
+            <div
+                style="background-color: rgb(28, 28, 156); width: 300px; padding: 0px; margin: 0; color: white;  border-radius: 12px;">
+                <img style="width: 300px; border-radius: 12px;" src="../java.webp" alt="">
+                <div style="justify-content: center; text-align: start; padding: 12px;">
+                    <h1 style="font-size: 30px;">Manhaj Tayo Leh</h1>
+                    <p style="width: 200px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur modi
+                        odit rerum?</p>
+                    <button style="background-color: white; color: black;">See More</button>
+                </div>
+            </div>
+
+            <!-- cards by one -->
+            <div
+                style="background-color: rgb(28, 28, 156); width: 300px; padding: 0px; margin: 0; color: white;  border-radius: 12px;">
+                <img style="width: 300px; border-radius: 12px;" src="../java.webp" alt="">
+                <div style="justify-content: center; text-align: start; padding: 12px;">
+                    <h1 style="font-size: 30px;">Manhaj Tayo Leh</h1>
+                    <p style="width: 200px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur modi
+                        odit rerum?</p>
+                    <button style="background-color: white; color: black;">See More</button>
+                </div>
+            </div>
+
+            <!-- cards by one -->
+            <div
+                style="background-color: rgb(28, 28, 156); width: 300px; padding: 0px; margin: 0; color: white;  border-radius: 12px;">
+                <img style="width: 300px; border-radius: 12px;" src="../java.webp" alt="">
+                <div style="justify-content: center; text-align: start; padding: 12px;">
+                    <h1 style="font-size: 30px;">Manhaj Tayo Leh</h1>
+                    <p style="width: 200px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur modi
+                        odit rerum?</p>
+                    <button style="background-color: white; color: black;">See More</button>
+                </div>
+            </div>
+
+            <!-- cards by one -->
+            <div
+                style="background-color: rgb(28, 28, 156); width: 300px; padding: 0px; margin: 0; color: white;  border-radius: 12px;">
+                <img style="width: 300px; border-radius: 12px;" src="../java.webp" alt="">
+                <div style="justify-content: center; text-align: start; padding: 12px;">
+                    <h1 style="font-size: 30px;">Manhaj Tayo Leh</h1>
+                    <p style="width: 200px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur modi
+                        odit rerum?</p>
+                    <button style="background-color: white; color: black;">See More</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- about us section -->
+    <div style="display: flex; align-items: center;justify-content: space-around; margin: 120px;">
+        <img style="border-radius: 12px; width: 700px;" src="./sawir1.jpg" alt="">
+        <div>
+            <h1 style="font-size: 30px; text-transform: uppercase;">About Us</h1>
+            <p style="width: 500px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, perspiciatis
+                perferendis. Dignissimos praesentium veritatis magni atque reiciendis! Laborum cumque perferendis maxime
+                consectetur illum itaque illo, rem, repudiandae ullam modi saepe officiis et?</p>
+            <button>see more</button>
+        </div>
+
+    </div>
+
+
+    <!-- contact us -->
+    <!-- about us section -->
+    <div style="m">
+        <h1 style="font-size:30px; text-transform: uppercase;">Contect Us</h1>
+        <div style="display: flex; align-items: center;justify-content: space-around; margin: 120px;">
+            <form action="" style="">
+                <input type="text" placeholder="Enter Your Name"><br>
+                <input type="text" placeholder="Enter Your email"><br>
+                <textarea name="" id="" placeholder="Enter Your Message"></textarea><br>
+                <button>Send</button>
+            </form>
+            <img style="border-radius: 12px; width: 700px;" src="./sawir2.jpg" alt="">
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
