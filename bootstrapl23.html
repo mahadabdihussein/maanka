@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>  
+    <h1>collapse</h1>
+    <p>examples 1 normal collapse</p>
+    <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="collapse"
+        data-bs-target="#collapse">collapse</button>
+        <div id="collapse" class="collapse">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ratione, culpa nulla laudantium aut dolores voluptatem
+         atque aliquam, voluptatum suscipit minus sint aliquid corrupti delectus, quod natus amet harum velit?</p>
+        </div>
+    </div>
+    <p>examples 2 show collapse</p>
+    <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#show">show collapse</button>
+        <div id="show" class="collapse show">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequatur quidem esse
+             cupiditate maiores. Consequatur vitae deleniti natus iure
+             quos iste nobis, voluptas repellat minus perferendis deserunt cupiditate maxime dolor?</p>
+        </div>
+    </div>
+    <h1>accordion</h1>
+    <div id="accordion">
+ <div class="card">
+    <div class="card-header">
+        <a class="btn" href="#collapseone" data-bs-toggle="collapse">group one item one</a>
+    </div>
+    <div id="collapseone" class="collapse show" data-bs-parent="#accordion">
+
+        <div class="card-body">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas at nam,
+          eveniet velit maxime amet exercitationem commodi impedit, itaque a ipsa molestias 
+          ipsam! Repellat recusandae modi harum totam quidem.
+
+        </div>
+
+    </div>
+ </div>
+ <div class="car">
+    <div class="card-header">
+        <a class="btn" href="#collapse1" data-bs-toggle="collapse">group two</a>
+    </div>
+    <div id="collapse1" class="collapse " data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+         sint. Facilis rerum nulla illum libero blanditiis perferendis
+          sit possimus distinctio molestias error soluta minima, ab quo 
+          doloribus inventore magni laborum!
+      </div>
+    </div>
+ </div>
+  
+ <div class="car">
+    <div class="card-header">
+        <a class="btn" href="#collapse2" data-bs-toggle="collapse">group three</a>
+    </div>
+    <div id="collapse2" class="collapse " data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate iusto illum voluptatum aliquam 
+        impedit! Maxime harum molestiae repellat in nesciunt culpa cumque id porro placeat. Reprehenderit 
+        eveniet similique commodi iste!
+        <p>welcome mahad caska</p>
+      </div>
+    </div>
+ </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

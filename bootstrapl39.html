@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="form-floating">
+        <input type="text" class="form-control" placeholder="username" name="" id="" required>
+        <label for="username">username</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" placeholder="password" name="" id="" required>
+            <label for="password">password</label>
+
+        </div>
+</div>
+<br>
+
+<div class="container">
+
+        <form action="">
+            <div class="form-floating">
+            <textarea name="comment" class="form-control" placeholder="comment" id="comment" required></textarea>
+            <label for="">comment</label>
+        </div>
+        </form>
+</div>
+  
+<div class="container">
+    <form action="">
+        <div class="form-floating">
+            <select class="form-select" name="" id="">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+             <label for="">select options</label>
+        </div>
+    </form>
+</div>
+
+<br>
+
+<div class="container">
+    <form action="" class="was-validated">
+       <div class="input">
+        <label for="" class="form-label">username</label>
+        <input type="text" class="form-control" placeholder="username" required name="" id="">
+        <div class="valid-feedback">valid</div>
+        <div class="invalid-feedback">please fill this field</div>
+       </div>
+        <br>
+       <div class="input1">
+        <label for="" class="form-label">password</label>
+        <input type="password" class="form-control" placeholder="password" required name="" id="">
+        <div class="valid-feedback">valid</div>
+        <div class="invalid-feedback">please fill this field</div>
+       </div>
+        <br>
+
+       <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" name="remember" id="MyCheck" required>
+        <label class="form-check-label" for="MyCheck">i agree on blabla</label>
+        <div class="valid-feedback">valid.</div>
+        <div class="invalid-feedback">check this checkbox to continue</div>
+       </div>
+       <button type="submit" class="btn btn-primary">submit</button>
+    </form>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
